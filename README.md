@@ -10,10 +10,17 @@ Yeap Finance is designed to be secure, transparent, and efficient, with low tran
 lenders can deposits their fund into different vaults, each vaults can be customized with a borrow interest rate model,
 and a vault can have multiple different kind of borrow managers who can borrow from the vault following the rules
 defined by each borrow managers.
+
 one of the borrow managers called position manager allows borrowers to create positions, add a collateral supported by
 the borrow manager, then borrow the fund from the vault through the borrow manager of the vault.
+
 another borrow manager so called flashloan, allows borrowers to borrow and repay funds from the vault instantly without
 collaterals within one transaction.
+
+Developers can build different borrow products based on Yeap Protocol.
+
+
+![arch](docs/arch.png)
 
 ## Development
 
