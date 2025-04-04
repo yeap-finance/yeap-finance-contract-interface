@@ -1,0 +1,24 @@
+[package]
+name = "yeap-leverage"
+version = "1.0.0"
+authors = []
+
+[addresses]
+yeap_leverage = "48583ed80aabb27c69dc9451a8a9553222040882bf07d7f88c6028087d877ca3"
+dex_contract = "0x41639ff06db072c728f61e31405ddfda0d78e14eaf45c2e3588a5f5cc1ce2a66"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.dex]
+git = "https://github.com/yeap-finance/hyperfluid-interface"
+rev = "main"
+
+[dependencies.yeap-vault]
+local = "../yeap-vault"
+[dependencies.yeap-borrow]
+local = "../yeap-borrow"
+[dev-dependencies]

@@ -1,0 +1,9 @@
+{
+    "aptos-move-analyzer.movefmt.enable": true,
+    "aptos-move-analyzer.movefmt.indent_size": 2,
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.scopeSelection": true,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.chat.generateTests.codeLens": true,
+    "aptos-move-analyzer.movefmt.max_width": 120
+}

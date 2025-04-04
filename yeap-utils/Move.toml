@@ -1,0 +1,16 @@
+[package]
+name = "yeap-utils"
+version = "1.0.0"
+authors = []
+
+[addresses]
+yeap_utils = "48583ed80aabb27c69dc9451a8a9553222040882bf07d7f88c6028087d877ca3"
+[dev-addresses]
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]

@@ -1,0 +1,26 @@
+[package]
+name = "yeap-flashloan"
+version = "1.0.0"
+authors = []
+
+[addresses]
+yeap_flashloan = "48583ed80aabb27c69dc9451a8a9553222040882bf07d7f88c6028087d877ca3"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+
+[dependencies.yeap-vault]
+local = "../yeap-vault"
+
+[dependencies.yeap-utils]
+local = "../yeap-utils"
+
+[dependencies.yeap-irm]
+local = "../yeap-irm"
+
+[dev-dependencies]
